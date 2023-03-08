@@ -1,0 +1,31 @@
+-- run ability made by hyp3rS
+
+-- put this all in StarterCharacterScripts!
+local character = game:WaitForChild('HumanoidRootPart')
+local root = script.Parent
+local userInputService = game:GetService('UserInputService')
+local debounce = true
+userInputService:Connect(function(plr)
+game.StarterGui(server,gui)
+if no gui then -- a bug fixer (keep)
+
+    userInputService.InputBegan = Enum.UserInputType.Keyboard
+    userInputService.UserInputType = Enum.UserInputType.Keyboard
+userInputService.UserInputType = Enum.UserInputKeyCode
+userInputService.UserInputType = Enum.KeyCode.Q -- change the Key to anything, maybe Z, or V, any!
+RemoteService.OnServerEvent:FireServer() -- Connects your RemoteServer(must have one)
+character.WalkSpeed = 100 == -- how fast will you run?
+
+
+
+end
+        end
+    end
+        end
+end)
+userInputService.InputEnded = Enum.UserInputType.Keyboard
+    userInputService.UserInputType = Enum.UserInputType.Keyboard
+userInputService.UserInputType = Enum.UserInputKeyCode
+userInputService.UserInputType = Enum.KeyCode.Q
+RemoteService.OnServerEvent:FireServer()
+character.WalkSpeed = 16 -- when you let go of Q on your keyboard.
